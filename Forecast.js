@@ -8,7 +8,7 @@ function forecust(){
    CityName.innerHTML =  " for : " +cityinput.value;
    
    // The api key from "open weather" platfrom
-   fetch('https://api.openweathermap.org/data/2.5/forecast?q='+cityinput.value+'&appid=7b59e388193a402892ff90ae0095eeb5')
+   fetch('https://api.openweathermap.org/data/2.5/forecast?q='+cityinput.value+'&appid= "Enter Your AppId"')
    .then(response => response.json())   //to execute the promise from the weather api
    .then(response => {
      //Take the value of min temperature
