@@ -11,7 +11,7 @@ const settings = {
   const getweather = (city) =>{
    cityname1.innerHTML= city;
    cityname2.innerHTML= city;
-   // The api key from "Rapid Api" platfrom
+   // The api key from "Rapid Api" platfrom api name is "weather by api ninjas"
    fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city= '+ city,settings)
 .then(response => response.json()) //to execute the promise from the weather api
 .then((response) => {
