@@ -1,7 +1,7 @@
 const settings = {
 	"method": "GET",
 	"headers": {
-		"X-RapidAPI-Key": "33d0e9ff7emshdfc6a8600eb2c8cp161467jsn7f54013e663c",
+		"X-RapidAPI-Key": "use Own API key",
 		"X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com"
 	}
 };  
