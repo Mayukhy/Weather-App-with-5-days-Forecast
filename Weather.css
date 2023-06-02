@@ -1,0 +1,178 @@
+
+body{
+  align-items: center;
+}
+#logotext{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(0, 255, 255, 0.879);
+  letter-spacing: 2px;
+}
+#logotext:hover{
+  cursor: pointer;
+  transition: all 0.5s;
+  transform: scale(1.07);
+}
+.logo{
+  margin-left: 10px;
+  width: 50px;
+  border-radius: 25px;
+}
+.logo:hover{
+  cursor: pointer;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border: 2px solid white;
+}
+.background{
+  background-color: black;
+  transition: all 1.5s;
+}
+  
+  #Weather-details{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  }
+  #animation{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      object-fit:cover;
+
+  }
+
+  #card{
+      background-color: rgba(169, 169, 232, 0.673);
+      border-radius: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 1px;
+  }
+  #card:hover{
+      color: rgb(57, 3, 108);
+      transition: 0.5s;
+      transform: scale(1.08);
+      cursor: pointer;
+  }
+  #cardli li{
+      background-color: rgba(169, 174, 232, 0.5);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #cardli li:nth-child(4){
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  #img1{
+      border-radius: 10px;
+      padding: 5px 5px;
+      opacity: 0.8;
+  }
+  #img1:hover{
+      cursor: pointer;
+      opacity: 1;
+      transition: 0.5s;
+      transform: scale(1.01);
+  }
+  #img1.img2{
+      opacity: 0.9;
+  }
+  #img2{
+    border-radius: 10px;
+   padding: 5px 5px;
+   opacity: 0.8;
+  }
+  #img3{
+    border-radius: 10px;
+   padding: 5px 5px;
+   opacity: 0.8;
+  }
+  #img2:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+#img3:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+  .searchme{
+    margin-right: 50px;
+    border: none;
+    outline: none;
+    background-color: rgba(151, 194, 240, 0.825);
+    border-radius: 20px;
+  }
+  .Btn{
+    border-radius: 20px;
+    margin-right: 50px;
+    padding: 5px 20px;
+  }
+  #Others{
+    background-color: rgba(109, 194, 194, 0.671);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #others{
+    text-align: justify;
+  }
+  #parameters{
+    background-color: rgba(185, 134, 233, 0.484);
+    padding:10px 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  #Others:hover{
+      cursor: pointer;
+      opacity: 1;
+      transition: 0.5s;
+      transform: scale(1.1);
+  }
+  .home{
+    cursor: pointer;
+  }
+  .home:hover{
+    color: burlywood;
+  }
+  .forecust{
+    cursor: pointer;
+  }
+
+  /* footer */
+  .foot{
+    margin-top: 0px;
+    padding: 40px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgba(240, 255, 255, 0.774);
+  }
+  .head{
+    cursor: pointer;
+    color: rgba(127, 232, 255, 0.888);
+  }
+  .icon .icon1{
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .icon .icon2{
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(237, 97, 97);
+  }
+  .icon .icon3{
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 179, 255);
+  }
+  #copyright{
+    padding: 20px 20px;
+    text-align: center;
+    color: rgba(0, 255, 255, 0.701);
+    margin-bottom: 0;
+  }
+
+
