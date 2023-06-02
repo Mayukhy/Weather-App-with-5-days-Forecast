@@ -43,7 +43,9 @@ function forecust(){
      document.getElementById("humidity5").innerHTML = Math.round(response.list[4].main.humidity);
 })
 }
-    const Anima = document.getElementById("Anima");    //for the Show Animation btn
+    const Anima = document.getElementById("Anima");   
+//for the Show Animation btn by pressing this btn you can see
+//differrnt animations acording to different weather condition
     Anima.addEventListener("click", (e) => {
     e.preventDefault;
     Anima.innerHTML= "Show Animation";
